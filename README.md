@@ -1,4 +1,4 @@
-# zsh_to_fish
+# zsh config
 How to make zsh like fish?
 
 
