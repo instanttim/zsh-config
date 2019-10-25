@@ -14,19 +14,12 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-3. Add plugins to `~/.zshrc` as
+4. Add custom theme:
 ```
-plugins = ( [plugins...] zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
-```
-Note: make sure zsh-syntax-highlighting is the last one in the above list.
-
-4. Fix background theme issues(, not necessary depends on your theme.)
-Add the following line to your `~/.zshrc`.
-```
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
+cp instanttim.zsh-theme ~/.oh-my-zsh/custom/themes/
 ```
 
-5. Restart zsh
+3. Copy configuration:
 ```
-source ~/.zshrc
+cp zshrc ~/.zshrc
 ```
