@@ -1,7 +1,7 @@
 # ZSH Theme emulating the Fish shell's default prompt.
 
 _fishy_collapsed_wd() {
-  echo $(pwd | perl -pe '
+  echo $(pwd -P | perl -pe '
    BEGIN {
       binmode STDIN,  ":encoding(UTF-8)";
       binmode STDOUT, ":encoding(UTF-8)";
