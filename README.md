@@ -14,9 +14,10 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-4. Add custom theme:
+4. Add custom theme & aliases:
 ```
 cp instanttim.zsh-theme ~/.oh-my-zsh/custom/themes/
+cp aliases.zsh ~/.oh-my-zsh/custom/
 ```
 
 3. Copy configuration:
