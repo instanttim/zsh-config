@@ -1,5 +1,5 @@
 # zsh config
-How to make zsh like fish?
+How to make zsh kinda like fish? And awesome.
 
 
 1. Install oh-my-zsh
@@ -19,6 +19,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ./install.sh 
 ```
 
+# Uninstall
 You can uninstall it too:
 ```
 ./install.sh remove
