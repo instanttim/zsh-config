@@ -18,3 +18,13 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 ./install.sh 
 ```
+
+You can uninstall it too:
+```
+./install.sh remove
+```
+which just removes the three files. Or you can use: 
+```
+./install.sh unlink
+```
+Which removes the symlinks but copies real files in their place so you can delete the repo but keep the config.
