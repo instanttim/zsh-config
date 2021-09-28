@@ -1,2 +1,2 @@
-alias brewup="brew update;brew upgrade;brew cleanup"
+alias brewup="brew update;brew upgrade"
 alias pa="php artisan"
