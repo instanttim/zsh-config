@@ -1,3 +1,4 @@
+alias du="du -h"
 alias brewup="brew update;brew upgrade"
 alias pa="php artisan"
 alias ffile='find . -type f -name'
